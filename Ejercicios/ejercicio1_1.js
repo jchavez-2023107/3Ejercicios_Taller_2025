@@ -8,7 +8,7 @@ const producto = {
 // Muestra la información del producto en la consola
 console.log("Producto");
 console.log(`Nombre: ${producto.nombre}`);
-console.log(`Precio: $${producto.precio}`);
+console.log(`Precio: Q${producto.precio}`);
 console.log(`Disponible: ${producto.disponible ? "Sí" : "No"}`);
 
 // Calcula el precio con un descuento del 10%
