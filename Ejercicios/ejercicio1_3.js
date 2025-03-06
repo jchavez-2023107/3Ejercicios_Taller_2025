@@ -36,6 +36,7 @@ function comprarProducto(id, cantidad) {
         producto.stock -= cantidad;
         const costoTotal = cantidad * producto.precio;
         console.log(`\nCompra exitosa: ${cantidad} x ${producto.nombre} por un total de: $${costoTotal}`);
+        console.log(`Stock restante de ${producto.nombre}: ${producto.stock}`);
     } else {
         console.log(`\nError: No hay suficiente stock de ${producto.nombre}. Stock disponible: ${producto.stock}`);
     }
