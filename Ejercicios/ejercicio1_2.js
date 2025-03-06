@@ -2,7 +2,7 @@
 const carrito = [
     { nombre: "Laptop", precio: 12000, cantidad: 27 },
     { nombre: "Mouse", precio: 25, cantidad: 30 },
-    { nombre: "Teclado", precio: 50, cantidad: 27 }
+    { nombre: "Teclado holográfico", precio: 5000, cantidad: 27 }
 ];
 
 // Calculamos el total por producto y el costo total del carrito
